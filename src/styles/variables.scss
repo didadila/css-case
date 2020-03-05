@@ -1,0 +1,84 @@
+//main
+// $mainBg: #409eff;
+$maragin:20px;
+$padding:10px 20px;
+
+$mainCl:#298aff;
+$mainClH:#5ca5ff;
+$mainDef:#ffffff;
+$mainDefH:#ecf5ff;
+
+$mainTil:#333333;
+$mainCon:#666666;
+$mainSub:#999999;
+$mainDis:#cccccc;
+$pageBg:#eff2f5;
+
+$card:#ffffff;
+$cardH:#f6faff;
+$pagebA:#999999;
+$pagebB:#cccccc;
+$pagebC:#e5e5e5;
+
+$borderA:#cccccc;
+$borderB:#e5e5e5;
+$borderC:#f6f6f6;
+
+$font24:24px;
+$font20:20px;
+$font18:18px;
+$font16:16px;
+$font14:14px;
+$font12:12px;
+
+$fontFamily:"Microsoft YaHei,PingFang SC,San Francisco,Helvetica Neue,Arial";
+$lineHeight:1.6;
+
+body{
+  font-family: $fontFamily;
+  h1,h2,h3,h4,h5,h6,p {
+    line-height: $lineHeight;
+  }
+}
+
+.el-card{
+  .el-card__header,
+  .el-card__body{
+    padding: $padding;
+  }
+  .card__header{
+    border-bottom: 1px solid $borderB;
+  }
+  .el-tabs__nav-wrap::after{
+    background-color: $borderA;
+  }
+}
+
+.el-tabs{
+  .el-tabs__item.is-active{
+    color: $mainCl;
+  }
+  .el-tabs__active-bar{
+    background-color: $mainCl;
+  }
+}
+
+.avue-layout {
+
+  .x-title{
+    color: $mainTil;
+    font-size: $font20;
+  }
+
+  .x-l-title{
+    color: $mainTil;
+    font-size: $font18;
+  }
+
+  .x-sub{
+    font-size: $font14;
+    color: $pagebA;
+  }
+}
+
+
